@@ -9,6 +9,21 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 */
 
+/* JSVIDEO
+<script type="text/javascript">
+  var index = 1,
+      playlist = ['first_video.mp4', 'second_video.mp4', 'third_video.mp4'],
+      video = document.getElementById('awesome_video');
+
+  video.addEventListener('ended', rotate_video, false);
+
+  function rotate_video() {
+    video.setAttribute('src', playlist[index]);
+    video.load();
+    index++;
+    if (index >= playlist.length) { index = 0; }
+  }
+</script> */
 ;(function ($, window, document) {
 
 	var pluginName = "tooltipster",
@@ -1197,3 +1212,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 		return false;
 	}
 })( jQuery, window, document );
+
+
