@@ -273,7 +273,8 @@ div#github {
 	position: relative;
 	bottom: 4px;
 	margin-left: 0px;
-	width: 90px;
+	width: 10px;
+	height: 10px;
 }
 #github a {
 	-webkit-transition: none;
@@ -300,6 +301,11 @@ pre:last-child {
 	margin-bottom: 0;
 }
 
+.team{
+	margin-left: -10px;
+	margin-right: -10px;
+	display: inline-block;
+}
 
 /* 
 -------------------------------------
