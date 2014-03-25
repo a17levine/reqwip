@@ -1212,5 +1212,20 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 		return false;
 	}
 })( jQuery, window, document );
-
+element.style {
+}
+user agent stylesheetdiv {
+display: block;
+}
+Inherited from div.LR-box
+.LR-box {
+text-align: center;
+}
+Inherited from div#content.LR-content.LR-site-bg-color-container
+.LR-content {
+font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+color: #1C1C1D;
+font-size: 14px;
+font-weight: 300;
+}
 
